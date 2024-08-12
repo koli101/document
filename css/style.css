@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: "Montserrat",
+     sans-serif;
+}
+h1, h2, h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+nav{}
+.container{
+    max-width: 1400px;
+}
+.logo a{}
+.logo a img{}
+
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+.menu ul li a :hover{}
+
+.cart{}
+.cart ul{}
+.cart ul li{}
+.cart ul li a{}
+.cart ul li a :hover{}
