@@ -19,8 +19,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #60605f;
-  color: var(--secondary-color);
+  max-width: 1400px;
+  margin: 0 auto;
 }
 /* utility class */
 .flex {
@@ -40,7 +40,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 3px;
-  background-color: rgb(244, 241, 235)
+  background-color: rgb(252, 252, 252)
 
 }
 .btn {
@@ -230,13 +230,21 @@ section{
 /* video section */
 
 /* product card section */
+.product{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: #c7e2eb;
+
+}
 .product-card {
   padding: 7rem 0;
   display: flex;
-  width: 90%;
   margin: 0 auto;
   flex-direction: column;
   gap: 20px;
+  background-color: #c7e2eb;
+  width: 90%;
 }
 .product-card .card {
   display: flex;
@@ -262,6 +270,7 @@ section{
   flex-basis: 65%;
   max-width: 65%;
   padding: 10px;
+  text-align: left;
 }
 .card .content h2 {
   font-size: 35px;
@@ -298,16 +307,41 @@ section{
   padding: 10px;                                                                                                                                                                                                               
   
 }
-
+/* product card section */
 .card .btn-div {
-  flex-basis: 28%;
-  max-width: 29%;                                                                                                                                                                                                                                                                                                                                            
-
+  
+  max-width: 29%;
   background-color: chocolate;
   border-bottom: #000;
+  border-radius: 4px;
+  padding: 1px 21px;
+  color: #fff;
 }
 .card .btn-div a {
-  display: inline;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
 }
 
 /* product card section */
+/*content*/
+.planet{
+  max-width: 1660px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 70px 50px;
+
+}
+.content{
+ text-align: center;
+}
+.content b{
+ font-size: 50px;
+ font-weight: 800;
+}
+.content p{
+  font-size: 15px;
+  font-weight: 300;
+}
+/*content*/
