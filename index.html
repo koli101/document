@@ -1,161 +1,1594 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personle portfolio website</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="header">
-         <b>NEW: Gussy's GutAbles Dog Treats! Click here</b>
-        </div>
-    </header>
-    <!-- navbar -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Morange to Figma</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+      <section class="top-header">
+          <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+              <ul class="d-flex list-unstyled gap-4 pt-1 pb-1 mg-0 align-items-center">
+                  <li>SUMMER SALE DISCOUNT OFF 50%</li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+                  <li>INSTANT DISCOUNT CODE 50% OFF Morange50</li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+                  <li>FREE SHIPPING FOR ALL ORDERS FROM $60+</li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+                  <li>FREE WORLDWIDE SHIPPING UNTIL FURTHER NOTICE</li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+                  <li>SUMMER SALE DISCOUNT OFF 50%</li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+              </ul>
+          </marquee>
+      </section>
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg bg-white mg-0 p-0 pb-2">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">new arrivals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dresses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tops</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bottoms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Outwear</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Accessories</a>
+                </li>
+                </ul>
+                <div class="d-flex">
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                        USD
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">BDT</a></li>
+                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                        <li><a class="dropdown-item" href="#">DHR</a></li>
+                      </ul>
+                    </div>
 
-    <nav>
-      <div class="container">
-        <div class="flex justify-center align-center">
-          <div class="logo">
-            <img src="img/GussysGut-LogoTM.png" alt="" srcset="" />
+                    <!-- Button trigger modal -->
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_63_4221)">
+      <path d="M19.8779 19.2887L13.7925 13.2033C15.0565 11.7999 15.8334 9.94957 15.8334 7.91664C15.8333 3.55145 12.2819 0 7.91668 0C3.55145 0 0 3.55145 0 7.91668C0 12.2819 3.55145 15.8334 7.91668 15.8334C9.94961 15.8334 11.7999 15.0565 13.2034 13.7925L19.2888 19.8779C19.3701 19.9593 19.4768 20 19.5834 20C19.69 20 19.7966 19.9593 19.878 19.8779C20.0407 19.7152 20.0407 19.4515 19.8779 19.2887ZM7.91668 15C4.01125 15 0.833359 11.8225 0.833359 7.91668C0.833359 4.01086 4.01125 0.83332 7.91668 0.83332C11.8221 0.83332 15 4.01082 15 7.91668C15 11.8225 11.8221 15 7.91668 15Z" fill="#141416"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_63_4221">
+      <rect width="20" height="20" fill="white"/>
+      </clipPath>
+      </defs>
+      </svg>
+      
+    </button>
+    <a href="#" class="btn">
+      
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_63_4225)">
+      <path d="M14.7917 0.833313C12.5732 0.833313 10.741 2.89386 10 3.86636C9.25902 2.89386 7.42676 0.833313 5.20832 0.833313C2.33645 0.833313 0 3.4737 0 6.71874C0 8.48917 0.702734 10.1391 1.93277 11.2683C1.95066 11.2992 1.97266 11.3277 1.99828 11.3534L9.70582 19.045C9.78719 19.126 9.8934 19.1667 10 19.1667C10.1066 19.1667 10.2132 19.126 10.2946 19.0446L18.2585 11.0836L18.3407 11.0038C18.4058 10.9424 18.4701 10.8801 18.5421 10.8004C18.5722 10.7707 18.597 10.7373 18.6161 10.7011C19.5093 9.60734 20 8.19659 20 6.71874C20 3.4737 17.6636 0.833313 14.7917 0.833313ZM17.9228 10.2323C17.9114 10.2458 17.9008 10.26 17.8914 10.2746C17.8524 10.3194 17.8096 10.3589 17.7673 10.3992L9.99961 18.1612L2.6823 10.8585C2.65871 10.8121 2.62574 10.7698 2.58547 10.7344C1.47176 9.76195 0.83332 8.29831 0.83332 6.71874C0.83332 3.93308 2.79582 1.66667 5.20832 1.66667C7.59359 1.66667 9.6293 4.77784 9.64965 4.80917C9.80348 5.04679 10.1965 5.04679 10.3504 4.80917C10.3707 4.77784 12.4064 1.66667 14.7917 1.66667C17.2042 1.66667 19.1667 3.93312 19.1667 6.71874C19.1667 8.0314 18.7248 9.27937 17.9228 10.2323Z" fill="#141416"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_63_4225">
+      <rect width="20" height="20" fill="white"/>
+      </clipPath>
+      </defs>
+      </svg>
+      
+    </a>
+    <a href="#" class="btn">
+      
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.2345 9.93142C9.33841 9.93142 8.4624 9.66569 7.71729 9.16782C6.97219 8.66996 6.39145 7.96232 6.04851 7.13441C5.70558 6.30649 5.61585 5.39547 5.79068 4.51656C5.9655 3.63764 6.39703 2.83031 7.03069 2.19665C7.66435 1.56299 8.47169 1.13146 9.3506 0.95663C10.2295 0.781804 11.1405 0.871531 11.9684 1.21447C12.7964 1.5574 13.504 2.13814 14.0019 2.88325C14.4997 3.62835 14.7655 4.50436 14.7655 5.4005C14.7641 6.60176 14.2863 7.75345 13.4369 8.60287C12.5875 9.4523 11.4358 9.93009 10.2345 9.93142ZM10.2345 2.12816C9.58733 2.12816 8.95466 2.32008 8.41653 2.67965C7.8784 3.03922 7.45897 3.55029 7.2113 4.14823C6.96362 4.74617 6.89882 5.40413 7.02508 6.0389C7.15135 6.67367 7.46301 7.25674 7.92065 7.71438C8.3783 8.17203 8.96137 8.48369 9.59614 8.60995C10.2309 8.73622 10.8889 8.67141 11.4868 8.42374C12.0847 8.17606 12.5958 7.75664 12.9554 7.21851C13.315 6.68037 13.5069 6.0477 13.5069 5.4005C13.5059 4.53292 13.1608 3.70117 12.5473 3.08771C11.9339 2.47424 11.1021 2.12916 10.2345 2.12816Z" fill="#141416"/>
+      <path d="M18.1007 19.1304C17.9338 19.1304 17.7738 19.0641 17.6558 18.9461C17.5377 18.8281 17.4714 18.6681 17.4714 18.5012V16.9455C17.4701 15.7506 16.9948 14.605 16.1499 13.7601C15.305 12.9151 14.1594 12.4399 12.9644 12.4385H7.50467C6.30975 12.4399 5.16415 12.9151 4.31921 13.7601C3.47427 14.605 2.999 15.7506 2.99766 16.9455V18.5012C2.99766 18.6681 2.93136 18.8281 2.81335 18.9461C2.69533 19.0641 2.53527 19.1304 2.36837 19.1304C2.20147 19.1304 2.04141 19.0641 1.92339 18.9461C1.80538 18.8281 1.73907 18.6681 1.73907 18.5012V16.9455C1.74091 15.417 2.34894 13.9515 3.4298 12.8707C4.51067 11.7898 5.9761 11.1818 7.50467 11.1799H12.9638C14.4925 11.1816 15.9581 11.7896 17.0391 12.8704C18.1201 13.9513 18.7282 15.4169 18.73 16.9455V18.5012C18.73 18.6681 18.6637 18.8281 18.5457 18.9461C18.4277 19.0641 18.2676 19.1304 18.1007 19.1304Z" fill="#141416"/>
+      </svg>
+    </a>
+    <a href="#" class="btn">
+      
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.7213 4.2325C18.7162 4.21125 18.7162 4.19125 18.7087 4.17125C18.67 4.0625 18.6038 3.97125 18.5163 3.9C18.5087 3.8925 18.5075 3.88125 18.5 3.875L17.5 3.125V0.625C17.5 0.525 17.4713 0.435 17.43 0.35125C17.4263 0.345 17.4287 0.3375 17.425 0.33C17.4175 0.31625 17.4013 0.31 17.3937 0.29625C17.35 0.2275 17.295 0.17 17.2288 0.12375C17.2063 0.10875 17.1875 0.0925 17.1637 0.08C17.0763 0.03375 16.9812 0 16.875 0H3.125C3.01875 0 2.92375 0.03375 2.835 0.08C2.81125 0.0925 2.7925 0.1075 2.77 0.12375C2.705 0.17125 2.65 0.2275 2.60625 0.29625C2.5975 0.31 2.5825 0.31625 2.575 0.33C2.57125 0.33625 2.5725 0.345 2.57 0.35125C2.52875 0.435 2.5 0.525 2.5 0.625V3.125L1.5 3.875C1.4925 3.88125 1.49125 3.8925 1.48375 3.89875C1.39625 3.97 1.33 4.06125 1.29125 4.17C1.28375 4.19125 1.28375 4.21 1.27875 4.23125C1.2675 4.28 1.25 4.32375 1.25 4.375V17.5C1.25 18.8787 2.37125 20 3.75 20H16.25C17.6287 20 18.75 18.8787 18.75 17.5V4.375C18.75 4.32375 18.7325 4.28 18.7213 4.2325ZM4.895 2.15375L4.29375 1.25H15.7062L15.105 2.15375C14.9212 2.42875 14.9837 2.80125 15.25 3L16.25 3.75H3.75L4.75 3C5.01625 2.80125 5.08 2.42875 4.895 2.15375ZM17.5 17.5C17.5 18.1887 16.94 18.75 16.25 18.75H3.75C3.06 18.75 2.5 18.1887 2.5 17.5V5H17.5V17.5Z" fill="#141416"/>
+      <path d="M14.375 7.5C14.03 7.5 13.75 7.78 13.75 8.125V10C13.75 12.0675 12.0675 13.75 10 13.75C7.9325 13.75 6.25 12.0675 6.25 10V8.125C6.25 7.78 5.97 7.5 5.625 7.5C5.28 7.5 5 7.78 5 8.125V10C5 12.7575 7.2425 15 10 15C12.7575 15 15 12.7575 15 10V8.125C15 7.78 14.72 7.5 14.375 7.5Z" fill="#141416"/>
+      </svg>
+      
+    </a>
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+          <div class="modal-body">
+          <input type="search" class="w-100">
           </div>
-
-          <div class="cart flex justify-end align-center">
-            <a href="" class="uniq-btn">Trial Pack</a>
-            <div class="nav-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"
-                />
-              </svg>
-              <span>Login</span>
-            </div>
-            <div class="nav-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                />
-              </svg>
-              <span>cart</span>
-            </div>
-          </div>
+        
         </div>
-      </div>
-    </nav>
-
-    <!-- navbar -->
- <!-- section 1-->
-
- <section class="">
-  <div class="section flex">
-    <div class="section1-content-wi flex justify-center align-center">
-      <div class="section-1 flex">
-        <h1>DOG TREAT GOALS</h1>
-        <p>
-          Gussy's Gut did it with two friends. White Oak Pastures shared
-          their heritage pork and Wedderspoon sent us their organic manuka
-          honey. Add in our blend of fermented organic vegetables and
-          tubers, and you have the most nutrient-dense dog treat on the face
-          of this gorgeous planet. It’s time to improve your treat game.
-        </p>
-        <a class="btn"> SAVE UP TO 20% TODAY</a>
       </div>
     </div>
-    <div class="image-1">
-      <img src="img/gussyGUT.webp" alt="" />
+    
+       </div>
+      </div>
+   </div>
+ </nav>
+ <!--banner section-->
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active overlay">
+      <img src="images/banner.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> This month from $29</h5>
+        <h2 class="mb-5">Summer outwear</h2>
+        <a href="#" class=" btn btn-outline-light px-5 py-3">Shop collection 
+          
+<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+  </svg>
+  
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item overlay ">
+      <img src="images/banner.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> This month from $29</h5>
+        <h2 class="mb-5">Summer outwear</h2>
+        <a href="#" class=" btn btn-outline-light px-5 py-3">Shop collection 
+          
+<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+  </svg>
+  
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item overlay">
+      <img src="images/banner.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> This month from $29</h5>
+        <h2 class="mb-5">Summer outwear</h2>
+        <a href="#" class=" btn btn-outline-light px-5 py-3">Shop collection 
+          
+<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+  </svg>
+  
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<section class="brand-Section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="row">
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-1.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-2.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-3.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-4.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-5.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+      <div class="col">
+        <div class="brand">
+          <img src="images/brand-6.png" alt="brand-section" class="img-fuild">
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</section>
+<!--Collection-section-->
+<section class="Collection-section pt-4">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="collection overlay">
+        <img src="images/collection-1.png" class="w-100" alt="collection-images">
+        <a href="https://www.aarong.com/women/tops">Tops <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+          </svg></a>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="collection featured overlay">
+        <img src="images/collection-2.png" class="w-100" alt="collection-images">
+        <h2>Outwear</h2>
+        <a href="#" >Shop now
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+            </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="collection overlay">
+        <img src="images/collection-3.png" class="w-100" alt="collection-images">
+        <a href="https://www.aarong.com/">Dresses <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+          </svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--featured-section-->
+<section class="collection-tab">
+  <div class="container">
+    <ul class="nav nav-pills mb-3 position-relative" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="true">NEW ARRIVALS</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="true">WHAT’S TRENDING</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="true">EXCLUSIVE</button>
+      </li>
+      <a href="#" class="view btn btn-outline-dark px-4 py-2">VIEW ALL<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+        </svg>
+
+      </a>
+     
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab" tabindex="0">
+        <div class="d-flex flex-wrap">
+           <div class="col-lg-3 p-2">
+            <div class="product-block">
+              <!--slider start-->
+              <div id="product-slider" class="carousel slide">
+                <button class="wishlist">
+                    <img src="images/fi_812327 (1).svg" alt="">
+                  
+                </button>
+                <div class="ds-S">
+                   <img src="images/Vector.svg" alt="vector">
+                   20% off at checkout
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--slider-end-->
+               <ul class="list-unstyled d-flex variant_color pt-3">
+                <li>
+                  <button type="button" variant-color="dark">
+                  </button>
+                </li>
+                <li>
+                  <button type="button" variant-color="red">
+                  </button>
+                </li>
+               </ul>
+               <div class="product-info">
+                <h5>Alejandra</h5>
+                <div class="title-price">
+                  <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                  <div class="price">
+                    $160
+                  </div>
+                </div>
+               </div>
+
+               <div class="variant-size">
+                <button type="button">XXS</button>
+                <button type="button">XS</button>
+                <button type="button">S</button>
+                <button type="button">M</button>
+                <button type="button">L</button>
+                <button type="button">XL</button>
+                <button type="button">XXL</button>
+                <button type="button">3XL</button>
+               </div>
+            </div>
+           </div>
+           <!--product-block-end-->
+           <div class="col-lg-3 p-2">
+            <div class="product-block">
+              <!--slider start-->
+              <div id="product-slider" class="carousel slide">
+                <button class="wishlist">
+                    <img src="images/fi_812327 (1).svg" alt="">
+                  
+                </button>
+                <div class="ds-S">
+                   <img src="images/Vector.svg" alt="vector">
+                   20% off at checkout
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--slider-end-->
+               <ul class="list-unstyled d-flex variant_color pt-3">
+                <li>
+                  <button type="button" variant-color="dark">
+                  </button>
+                </li>
+                <li>
+                  <button type="button" variant-color="red">
+                  </button>
+                </li>
+               </ul>
+               <div class="product-info">
+                <h5>Alejandra</h5>
+                <div class="title-price">
+                  <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                  <div class="price">
+                    $160
+                  </div>
+                </div>
+               </div>
+
+               <div class="variant-size">
+                <button type="button">XXS</button>
+                <button type="button">XS</button>
+                <button type="button">S</button>
+                <button type="button">M</button>
+                <button type="button">L</button>
+                <button type="button">XL</button>
+                <button type="button">XXL</button>
+                <button type="button">3XL</button>
+               </div>
+            </div>
+           </div>
+           <!--product-block-end-->
+           <div class="col-lg-3 p-2">
+            <div class="product-block">
+              <!--slider start-->
+              <div id="product-slider" class="carousel slide">
+                <button class="wishlist">
+                    <img src="images/fi_812327 (1).svg" alt="">
+                  
+                </button>
+                <div class="ds-S">
+                   <img src="images/Vector.svg" alt="vector">
+                   20% off at checkout
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--slider-end-->
+               <ul class="list-unstyled d-flex variant_color pt-3">
+                <li>
+                  <button type="button" variant-color="dark">
+                  </button>
+                </li>
+                <li>
+                  <button type="button" variant-color="red">
+                  </button>
+                </li>
+               </ul>
+               <div class="product-info">
+                <h5>Alejandra</h5>
+                <div class="title-price">
+                  <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                  <div class="price">
+                    $160
+                  </div>
+                </div>
+               </div>
+
+               <div class="variant-size">
+                <button type="button">XXS</button>
+                <button type="button">XS</button>
+                <button type="button">S</button>
+                <button type="button">M</button>
+                <button type="button">L</button>
+                <button type="button">XL</button>
+                <button type="button">XXL</button>
+                <button type="button">3XL</button>
+               </div>
+            </div>
+           </div>
+           <!--product-block-end-->
+           <div class="col-lg-3 p-2">
+            <div class="product-block">
+              <!--slider start-->
+              <div id="product-slider" class="carousel slide">
+                <button class="wishlist">
+                    <img src="images/fi_812327 (1).svg" alt="">
+                  
+                </button>
+                <div class="ds-S">
+                   <img src="images/Vector.svg" alt="vector">
+                   20% off at checkout
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--slider-end-->
+               <ul class="list-unstyled d-flex variant_color pt-3">
+                <li>
+                  <button type="button" variant-color="dark">
+                  </button>
+                </li>
+                <li>
+                  <button type="button" variant-color="red">
+                  </button>
+                </li>
+               </ul>
+               <div class="product-info">
+                <h5>Alejandra</h5>
+                <div class="title-price">
+                  <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                  <div class="price">
+                    $160
+                  </div>
+                </div>
+               </div>
+
+               <div class="variant-size">
+                <button type="button">XXS</button>
+                <button type="button">XS</button>
+                <button type="button">S</button>
+                <button type="button">M</button>
+                <button type="button">L</button>
+                <button type="button">XL</button>
+                <button type="button">XXL</button>
+                <button type="button">3XL</button>
+               </div>
+            </div>
+           </div>
+           <!--product-block-end-->
+        </div>
+        </div>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade " id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab" tabindex="0">        <div class="d-flex flex-wrap">
+        <div class="col-lg-3">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+     </div></div>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade " id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab" tabindex="0">   
+     <div class="d-flex flex-wrap">
+        <div class="col-lg-3">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+        <div class="col-lg-3 p-2">
+         <div class="product-block">
+           <!--slider start-->
+           <div id="product-slider" class="carousel slide">
+             <button class="wishlist">
+                 <img src="images/fi_812327 (1).svg" alt="">
+               
+             </button>
+             <div class="ds-S">
+                <img src="images/Vector.svg" alt="vector">
+                20% off at checkout
+             </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               <div class="carousel-item active">
+                 <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+               </div>
+               
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+             </button>
+           </div>
+           <!--slider-end-->
+            <ul class="list-unstyled d-flex variant_color pt-3">
+             <li>
+               <button type="button" variant-color="dark">
+               </button>
+             </li>
+             <li>
+               <button type="button" variant-color="red">
+               </button>
+             </li>
+            </ul>
+            <div class="product-info">
+             <h5>Alejandra</h5>
+             <div class="title-price">
+               <h3>One Shoulder Satin Maxi Dress - Black</h3>
+               <div class="price">
+                 $160
+               </div>
+             </div>
+            </div>
+
+            <div class="variant-size">
+             <button type="button">XXS</button>
+             <button type="button">XS</button>
+             <button type="button">S</button>
+             <button type="button">M</button>
+             <button type="button">L</button>
+             <button type="button">XL</button>
+             <button type="button">XXL</button>
+             <button type="button">3XL</button>
+            </div>
+         </div>
+        </div>
+        <!--product-block-end-->
+     </div></div>
     </div>
   </div>
 </section>
 
-<!-- section 1 -->
-<!-- section 2 -->
-
-<div class="section-2-container">
-  <div class="section-2-content">
-    <p>When I say only the best for my dog, this is it.</p>
-    <div class="image">
-      <img src="img/star-review_1500x.png" alt="" />
-      <span>Verified review by Corie K.</span>
-    </div>
-  </div>
-</div>
-
-<!-- section 2 -->
-  <!-- section 2 -->
-    <!--video section-->
-    <section class="container">
-      <div class="video-section">
-        <iframe
-          width="872"
-          height="479"
-          src="https://www.youtube.com/embed/137w_lH_aEg"
-          title="Rob Ryan x Will Harris discuss the Gussy&#39s GutAbles Dog Treat Partnership"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-    <!--video section-->
- 
-     <!-- product card section -->
-
-     <section>
-      <div class="product">
-        <div class="product-card">
-          <div class="card">
-            <div class="img-p">
-              <img src="img/2ceeb647-gussys-gutables-front_102202c000000000000000.png" alt="" />
-            </div>
-            <div class="content">
-              <h2>single pack</h2>
-              <p>$29.97</p>
-            </div>
-            <div class="btn-div">
-              <a href="" class="btn"> Add 1 to Cart</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-p">
-              <img src="img/f3cde3fe-3pack-min_103c03x000000000000000.png" alt="" />
-            </div>
-            <div class="content">
-              <h2>single pack</h2>
-              <p>$29.97 <span>$26.47 ea. (Save $9)</span></p>
-            </div>
-            <div class="btn-div">
-              <a href="" class="btn"> Add 1 to Cart</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-p">
-              <img src="img/5060a952-6pack-min_104104j000000000000000.png" alt="" />
-            </div>
-            <div class="content">
-              <h2>single pack <span> *Save 20%*</span></h2>
-              <h3>Plus, get $20 gift card to use on your next purchase!</h3>
-              <p>$29.97 <span>$23.97 ea. (Save $36)</span></p>
-            </div>
-            <div class="btn-div">
-              <a href="" class="btn"> Add 1 to Cart</a>
-            </div>
-          </div>
+<!--collection-2-->
+<section class="Collection-section pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="collection overlay">
+          <img src="images/collection-4.png" class="w-100" alt="collection-images">
+          <a href="https://www.aarong.com/women/tops">Bottoms <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+            </svg></a>
         </div>
       </div>
-    </section>
-
-    <!-- product card section -->
-     <!--content-->
-    <section class="planet">
-      <div class="content">
-        <b>PETS X PLANET</b>
-        <p>We do what is best for the health of our pets and for our planet at the same time.</p>
+      <div class="col-lg">
+        <div class="collection overlay">
+          <img src="images/collection-5.png" class="w-100" alt="collection-images">
+          <a href="https://www.aarong.com/">Sets <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+            </svg></a>
+        </div>
       </div>
-    </section>
-     <!--content-->
-</body>
-</html>
+      <div class="col-lg">
+        <div class="collection featured overlay">
+          <img src="images/collection-6.png" class="w-100" alt="collection-images">
+          <h2>Accessories</h2>
+          <a href="#" >Shop now
+            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="collection-tab">
+   <div class="container">
+    <div class="d-flex flex-wrap">
+      <div class="col-lg-3 p-2">
+       <div class="product-block">
+         <!--slider start-->
+         <div id="product-slider" class="carousel slide">
+           <button class="wishlist">
+               <img src="images/fi_812327 (1).svg" alt="">
+             
+           </button>
+           <div class="ds-S">
+              <img src="images/Vector.svg" alt="vector">
+              20% off at checkout
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-3.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+         <!--slider-end-->
+          <ul class="list-unstyled d-flex variant_color pt-3">
+           <li>
+             <button type="button" variant-color="dark">
+             </button>
+           </li>
+           <li>
+             <button type="button" variant-color="red">
+             </button>
+           </li>
+          </ul>
+          <div class="product-info">
+           <h5>Alejandra</h5>
+           <div class="title-price">
+             <h3>One Shoulder Satin Maxi Dress - Black</h3>
+             <div class="price">
+               $160
+             </div>
+           </div>
+          </div>
+
+          <div class="variant-size">
+           <button type="button">XXS</button>
+           <button type="button">XS</button>
+           <button type="button">S</button>
+           <button type="button">M</button>
+           <button type="button">L</button>
+           <button type="button">XL</button>
+           <button type="button">XXL</button>
+           <button type="button">3XL</button>
+          </div>
+       </div>
+      </div>
+      <!--product-block-end-->
+      <div class="col-lg-3 p-2">
+       <div class="product-block">
+         <!--slider start-->
+         <div id="product-slider" class="carousel slide">
+           <button class="wishlist">
+               <img src="images/fi_812327 (1).svg" alt="">
+             
+           </button>
+           <div class="ds-S">
+              <img src="images/Vector.svg" alt="vector">
+              20% off at checkout
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+         <!--slider-end-->
+          <ul class="list-unstyled d-flex variant_color pt-3">
+           <li>
+             <button type="button" variant-color="dark">
+             </button>
+           </li>
+           <li>
+             <button type="button" variant-color="red">
+             </button>
+           </li>
+          </ul>
+          <div class="product-info">
+           <h5>Alejandra</h5>
+           <div class="title-price">
+             <h3>One Shoulder Satin Maxi Dress - Black</h3>
+             <div class="price">
+               $160
+             </div>
+           </div>
+          </div>
+
+          <div class="variant-size">
+           <button type="button">XXS</button>
+           <button type="button">XS</button>
+           <button type="button">S</button>
+           <button type="button">M</button>
+           <button type="button">L</button>
+           <button type="button">XL</button>
+           <button type="button">XXL</button>
+           <button type="button">3XL</button>
+          </div>
+       </div>
+      </div>
+      <!--product-block-end-->
+      <div class="col-lg-3 p-2">
+       <div class="product-block">
+         <!--slider start-->
+         <div id="product-slider" class="carousel slide">
+           <button class="wishlist">
+               <img src="images/fi_812327 (1).svg" alt="">
+             
+           </button>
+           <div class="ds-S">
+              <img src="images/Vector.svg" alt="vector">
+              20% off at checkout
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-4.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+         <!--slider-end-->
+          <ul class="list-unstyled d-flex variant_color pt-3">
+           <li>
+             <button type="button" variant-color="dark">
+             </button>
+           </li>
+           <li>
+             <button type="button" variant-color="red">
+             </button>
+           </li>
+          </ul>
+          <div class="product-info">
+           <h5>Alejandra</h5>
+           <div class="title-price">
+             <h3>One Shoulder Satin Maxi Dress - Black</h3>
+             <div class="price">
+               $160
+             </div>
+           </div>
+          </div>
+
+          <div class="variant-size">
+           <button type="button">XXS</button>
+           <button type="button">XS</button>
+           <button type="button">S</button>
+           <button type="button">M</button>
+           <button type="button">L</button>
+           <button type="button">XL</button>
+           <button type="button">XXL</button>
+           <button type="button">3XL</button>
+          </div>
+       </div>
+      </div>
+      <!--product-block-end-->
+      <div class="col-lg-3 p-2">
+       <div class="product-block">
+         <!--slider start-->
+         <div id="product-slider" class="carousel slide">
+           <button class="wishlist">
+               <img src="images/fi_812327 (1).svg" alt="">
+             
+           </button>
+           <div class="ds-S">
+              <img src="images/Vector.svg" alt="vector">
+              20% off at checkout
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             <div class="carousel-item active">
+               <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+             </div>
+             
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+         <!--slider-end-->
+          <ul class="list-unstyled d-flex variant_color pt-3">
+           <li>
+             <button type="button" variant-color="dark">
+             </button>
+           </li>
+           <li>
+             <button type="button" variant-color="red">
+             </button>
+           </li>
+          </ul>
+          <div class="product-info">
+           <h5>Alejandra</h5>
+           <div class="title-price">
+             <h3>One Shoulder Satin Maxi Dress - Black</h3>
+             <div class="price">
+               $160
+             </div>
+           </div>
+          </div>
+
+          <div class="variant-size">
+           <button type="button">XXS</button>
+           <button type="button">XS</button>
+           <button type="button">S</button>
+           <button type="button">M</button>
+           <button type="button">L</button>
+           <button type="button">XL</button>
+           <button type="button">XXL</button>
+           <button type="button">3XL</button>
+          </div>
+       </div>
+      </div>
+      <!--product-block-end-->
+   </div>
+   </div>
+  </section>
+
+  <section class="look-book">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="collection featured overlay">
+            <img src="images/collection-2.png" class="w-100" alt="collection-images">
+            <h2>Accessories</h2>
+            <a href="#" >Shop now
+              <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 7H15.5M15.5 7L9 0.5M15.5 7L9 13.5" stroke="white" stroke-linejoin="round"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="product-block">
+            <!--slider start-->
+            <div id="product-slider" class="carousel slide">
+              <button class="wishlist">
+                  <img src="images/fi_812327 (1).svg" alt="">
+                
+              </button>
+              <div class="ds-S">
+                 <img src="images/Vector.svg" alt="vector">
+                 20% off at checkout
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/product-1.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--slider-end-->
+             <ul class="list-unstyled d-flex variant_color pt-3">
+              <li>
+                <button type="button" variant-color="dark">
+                </button>
+              </li>
+              <li>
+                <button type="button" variant-color="red">
+                </button>
+              </li>
+             </ul>
+             <div class="product-info">
+              <h5>Alejandra</h5>
+              <div class="title-price">
+                <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                <div class="price">
+                  $160
+                </div>
+              </div>
+             </div>
+   
+             <div class="variant-size">
+              <button type="button">XXS</button>
+              <button type="button">XS</button>
+              <button type="button">S</button>
+              <button type="button">M</button>
+              <button type="button">L</button>
+              <button type="button">XL</button>
+              <button type="button">XXL</button>
+              <button type="button">3XL</button>
+             </div>
+          </div>
+         </div>
+         <!--product-block-end-->
+         <div class="col-lg-3">
+          <div class="product-block">
+            <!--slider start-->
+            <div id="product-slider" class="carousel slide">
+              <button class="wishlist">
+                  <img src="images/fi_812327 (1).svg" alt="">
+                
+              </button>
+              <div class="ds-S">
+                 <img src="images/Vector.svg" alt="vector">
+                 20% off at checkout
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="images/product-2.png" class=" img-fuild d-block w-100" alt="product-img">
+                </div>
+                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#product-slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#product-slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--slider-end-->
+             <ul class="list-unstyled d-flex variant_color pt-3">
+              <li>
+                <button type="button" variant-color="dark">
+                </button>
+              </li>
+              <li>
+                <button type="button" variant-color="red">
+                </button>
+              </li>
+             </ul>
+             <div class="product-info">
+              <h5>Alejandra</h5>
+              <div class="title-price">
+                <h3>One Shoulder Satin Maxi Dress - Black</h3>
+                <div class="price">
+                  $160
+                </div>
+              </div>
+             </div>
+   
+             <div class="variant-size">
+              <button type="button">XXS</button>
+              <button type="button">XS</button>
+              <button type="button">S</button>
+              <button type="button">M</button>
+              <button type="button">L</button>
+              <button type="button">XL</button>
+              <button type="button">XXL</button>
+              <button type="button">3XL</button>
+             </div>
+          </div>
+         </div>
+         <!--product-block-end-->
+        </div>
+        </div>
+      </div>
+
+  </section>
+ <!--new-arrival--> 
+ <section class="new-arrival">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-7">
+        <div class="collection featured overlay">
+          <img src="images/Frame 21.png" class="w-100" alt="collection-images">
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="N-A-C">
+          <H5>New Arrival</H5>
+          <h2>Winter
+            Collection</h2>
+            <p>Lorem ipsum is simply dummy text of the printing typesetting industry. Lorem ipsum has been standard dummy text. Lorem ipsum has been standard.</p>
+            <a href="#">Discover Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  </html>
